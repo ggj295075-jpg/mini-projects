@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "984848e1efbb915f",
+    "type": "split",
+    "children": [
+      {
+        "id": "80becf5ae890c030",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc9910cbce18ae76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NotebookOfTheory/LinearAlgebraTheory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LinearAlgebraTheory"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eacffff413f2d9c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "54e5e2e3ed0972f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "267f77e82ff740e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ab0e7e72d3996648",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83aae713a2d2aebd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332.5
+  },
+  "right": {
+    "id": "47aa442b70d8ae57",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e8857fdce84141d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd39e7d84b46f999",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NotebookOfTheory/LinearAlgebraTheory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for LinearAlgebraTheory"
+            }
+          },
+          {
+            "id": "dda70f6b0fc5e3cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NotebookOfTheory/LinearAlgebraTheory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from LinearAlgebraTheory"
+            }
+          },
+          {
+            "id": "472cd510ac111be8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "13f198d6667778d4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "99da85f926a21959",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NotebookOfTheory/LinearAlgebraTheory.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LinearAlgebraTheory"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dc9910cbce18ae76",
+  "lastOpenFiles": [
+    "home/alo/mini-projects/LinearAlgebra/NumpyLearnOutput.md",
+    "NotebookOfTheory/LinearAlgebraTheory.md",
+    "LinearAlgebra/NumpyLearnOutput.md",
+    "home/alo/mini-projects/LinearAlgebra/numpyLearn.py.md",
+    "home/alo/mini-projects/LinearAlgebra",
+    "home/alo/mini-projects",
+    "home/alo",
+    "home",
+    "NotebookOfTheory/LinearAlgebraTheory.md~"
+  ]
+}
