@@ -17,7 +17,7 @@ matrixB = np.array([[1,2],
 element_wise_result = matrixA * matrixA # or np.multiply(matrixA, matrixA)
 matrix_result = matrixA @ matrixB # or np.matmul(matrixA, matrixB)
 print("Element-wise multiplication(matrixA*matrixA):\n", element_wise_result)
-print("Matrix multiplication(mattrixA*matrixB):\n", matrix_result)
+print("Matrix multiplication(matrixA*matrixB):\n", matrix_result)
 print("Matrix multiplication(matrixB*matrixA:\n", matrixB @ matrixA)
 
 # Cut vectors and matrix:
