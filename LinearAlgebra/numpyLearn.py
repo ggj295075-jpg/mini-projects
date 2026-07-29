@@ -1,6 +1,6 @@
 import numpy as np
 
-# Broadcasting
+
 vectorA = np.array([1, 2, 3, 4])
 vectorB = np.array([3, 2, 1])
 Result = vectorA * vectorB[:, np.newaxis]
