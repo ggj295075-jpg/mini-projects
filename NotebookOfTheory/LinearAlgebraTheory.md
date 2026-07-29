@@ -33,12 +33,7 @@ $$matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6 \end{pmatrix}$$ * $$matr
 
 # Rank, Basis, Projection:
 
-## A rank is a max amount a linear independent columns (or rows). This is a dimension linear columns.Example:
-| Matrix                                                              | Rank  | Why                             |
-| ------------------------------------------------------------------- | ----- | ------------------------------- |
-| $$ \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$$ | **3** | full rank, $\det = 1$           |
-| $$ \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end{pmatrix}$$ | **2** | Second column = 2 * first |
-| $$ \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 3 & 6 & 9 \end{pmatrix}$$ | **1** | All columns is proportional     |
+## A rank is a max amount a linear independent columns (or rows). This is a dimension linear columns.
 
 ## A basis is a set of vectors ${v_{1}, \cdots, v_{n} }$. 
    - Dimension = an amount vectors in a basis.
