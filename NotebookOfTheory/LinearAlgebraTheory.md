@@ -26,7 +26,7 @@
 - Example: $vectorA = [10, 5]$   $vectorB = [-1, 3]$. They scalar = $10*(-1) + 5*3 = -10 + 15 = 5$
 
 ## The matrix multiple is a muptiple of every num in a first row in matrix to every num in first column in another matrix, etc. But there is restriction: an amount nums in rows must be equal to amount nums in columns an another matrix. Example:
-$matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6 \end{pmatrix}$ * $matrix_{b} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$ = $matrix_(a*b) = \begin{pmatrix} 14 & 32 \\ 32 & 77 \end{pmatrix}$
+$$matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6 \end{pmatrix}$$ * $$matrix_{b} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$$ = $$matrix_(a*b) = \begin{pmatrix} 14 & 32 \\ 32 & 77 \end{pmatrix}$$
 
 - Operations: 1num = 1 row * 1 colum, 2num = 1row * 2 column, 3num = 2 row * 1 column, 4num = 2 row * 2 column
 
@@ -34,13 +34,13 @@ $matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6 \end{pmatrix}$ * $matrix_
 # Rank, Basis, Projection:
 
 ## A rank is a max amount a linear independent columns (or rows). This is a dimension linear columns.Example:
-| Matrix                                                           | Rank | Why                       |
-| ------------------------------------------------------------------- | ----- | ---------------------------- |
-| $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{bmatrix}$ | **3** | full rank, $\det = 1$      |
-| $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end{bmatrix}$ | **2** | Second column $= 2 \times$ 1-й |
-| $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 3 & 6 & 9 \end{bmatrix}$ | **1** | All columns is proportional  |
+| Matrix                                                              | Rank  | Why                             |
+| ------------------------------------------------------------------- | ----- | ------------------------------- |
+| $$\begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{bmatrix}$$ | **3** | full rank, $\det = 1$           |
+| $$\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 1 & 1 & 1 \end{bmatrix}$$ | **2** | Second column $= 2 \times$first |
+| $$\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 3 & 6 & 9 \end{bmatrix}$$ | **1** | All columns is proportional     |
 
-## A basis is a set of vectors ${v_{1}, \cdots, v_{n} }. 
+## A basis is a set of vectors ${v_{1}, \cdots, v_{n} }$. 
    - Dimension = an amount vectors in a basis.
-   - Default basis $R^3$: $e_{1} = (1,0,0), e_{2} = (0,1,0), e_{3} = (0,0,1)
+   - Default basis $R^3$: $e_{1} = (1,0,0), e_{2} = (0,1,0), e_{3} = (0,0,1)$
 
