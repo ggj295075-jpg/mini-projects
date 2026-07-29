@@ -39,3 +39,11 @@ $$matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6 \end{pmatrix}$$ * $$matr
    - Dimension = an amount vectors in a basis.
    - Default basis $R^3$: $e_{1} = (1,0,0), e_{2} = (0,1,0), e_{3} = (0,0,1)$
 
+
+# L1 and L2 norms:
+
+## L1:
+  - It is a sum of values in vector. Example: [3, -4] = |3| + |-4| = 3 + 4 = 7.
+
+## L2:
+  - It is a square root of values^2 in vector. Example [3, -4] = $\sqrt{3^2 + 4^2}$ = 5
