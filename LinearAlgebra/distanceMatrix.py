@@ -1,22 +1,24 @@
 import numpy as np
-import math
 
-matrix = np.array([[1,2], [0, 3], [3, 0]])
+# Cosine Similarity Func
+def cosine_similarity(X):
+    dot = np.dot(X,X.T)
+    norms = np.linalg.norm(X,axis=1)
+    norms_matrix = np.outer(norms, norms)
+    similarity = dot / np.maximum(norms_matrix, 1e-10)
+    similarity = np.clip(similarity, -1, 1)
+    return similarity
+# Euclidean Distance Func
+def piarwise_distance(X):
+    sq_sum = np.sum(np.square(X), axis=1, keepdims=True)
+    sq_distance = sq_sum + sq_sum.T
+    sq_distance = sq_distance - 2 * np.dot(X, X.T)
+    sq_distance = np.maximum(sq_distance, 0)
+    return np.sqrt(sq_distance)
 
-num_point = len(matrix)
+a = np.array([[1,3,4,4], [4,2,6,9,]])
 
-space_matrix = [[0.0] * num_point for _ in range(num_point)]
+print(piarwise_distance(a))
+print(cosine_similarity(a))
 
-for i in range(num_point):
-    for j in range(num_point):
-        p1 = matrix[i]
-        p2 = matrix[j]
-
-        euclid_dist_x = (p1[0]-p2[0])**2
-        euclid_dist_y = (p1[1]-p2[1])**2
-
-        distance = math.sqrt(euclid_dist_x + euclid_dist_y)
-        space_matrix[i][j] = distance
-
-print(space_matrix)
-
+# I'll finish write it later
