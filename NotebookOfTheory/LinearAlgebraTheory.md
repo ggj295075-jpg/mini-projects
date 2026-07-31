@@ -22,7 +22,7 @@
 - Example: $vectorA = [10, 5]$   $vectorB = [-1, 3]$. They scalar = $10*(-1) + 5*3 = -10 + 15 = 5$
 
  The matrix multiple is a muptiple of every num in a first row in matrix to every num in first column in another matrix, etc. But there is restriction: an amount nums in rows must be equal to amount nums in columns an another matrix. Example:
-$$matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6 \end{pmatrix}$$ * $$matrix_{b} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$$ = $$matrix_(a*b) = \begin{pmatrix} 14 & 32 \\ 32 & 77 \end{pmatrix}$$
+$$matrix_{a} = \begin{pmatrix} 1 & 2 & 3 & \\ 4 & 5 & 6\end{pmatrix}$$ * $$matrix_{b} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$$ = $$matrix_(a*b) = \begin{pmatrix} 14 & 32 \\ 32 & 77 \end{pmatrix}$$
 
 - Operations: 1num = 1 row * 1 colum, 2num = 1row * 2 column, 3num = 2 row * 1 column, 4num = 2 row * 2 column
 
@@ -45,7 +45,7 @@ L1:
   - It is a sum of values in vector. Example: [3, -4] = |3| + |-4| = 3 + 4 = 7.
 
 L2:
-  - It is a square root of values^2 in vector. Example [3, -4] = $\sqrt{3^2 + 4^2}$ = 5
+  - It is a square root of $values^2$ in vector. Example [3, -4] = $\sqrt{3^2 + 4^2}$ = 5
 
 
 # Distance:
