@@ -1,4 +1,4 @@
-# It is note with Theory of step 0.1 in ml-engineer plan[/home/alo/Documents/ml-llm-roadmap.md].
+# It is note with Theory of step 0.1 in ml-engineer plan.
 - A vector is an array (set of data types). It may have a few arrays.Example:
   - vectorA = ([1, 2, 3, 4])
   - vectorB = (["one", "two", "three", "four"])
@@ -12,9 +12,9 @@
 [[1,2,3,4], [1,2,3,4]
 [1,2,3,4], [1,2,3,4]]
 
-- *Broadcast in numpy - multiple. 
+- *Broadcast in numpy - multiple.*
 
-- *Shape in numpy. Returns (n,) in array, (columns, rows) in vector, (rows, columns, arrays) in tensor.
+- *Shape in numpy. Returns (n,) in array, (columns, rows) in vector, (rows, columns, arrays) in tensor.*
 
 # Scalar and Matrix multiple: 
 
