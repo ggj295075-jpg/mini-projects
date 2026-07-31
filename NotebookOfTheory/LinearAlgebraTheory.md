@@ -59,3 +59,7 @@ L2:
   - Formula: $\frac{a*b}{||a||_{2} * ||b||_{2}}$
   If result = 1 - vectors in one direction. 0 - a vectors is perpedicular. -1 - a vectors is opposite.
 
+
+# Eigenvectors and eigenvalues:
+  - Eigenvectors it is the not zero vector, which doesn't change direction when matrix multiply. But change his len.
+  - eigenvalue it is a value, which show by how many times changing tensile force. $$\alpha$$
