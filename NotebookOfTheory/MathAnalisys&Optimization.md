@@ -7,3 +7,17 @@
     - gradient descent
     - loss function
     - backpropagation
+
+*Partial Derivative - is the derivative of a function of a few variable with a one variable.*
+  - We use to the partial derivative for:
+    - gradient descent
+    - multivariate loss function
+    - gradient
+
+> Gradient Descent:
+  - Formula: $$W_{new} = W_{old} - a * \frac{dL}{dW}$$
+  - L - loss
+  - W - a single specific weight
+  - a - a speed of train
+
+
