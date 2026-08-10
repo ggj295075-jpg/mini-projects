@@ -1,5 +1,6 @@
 # It is a theory note of Phase 0.2 in my ml roadmap.
 
+> [!NOTE]
 > *First I'll write will be derivative.*
 
 **Derivative measure a changes speed of function.**
@@ -14,12 +15,14 @@
     - multivariate loss function
     - gradient
 
+> [!NOTE]
 > Gradient Descent:
   - Formula: $$W_{new} = W_{old} - a * \frac{dL}{dW}$$
   - L - loss
   - W - a single specific weight
   - a - a speed of train
 
+> [!NOTE]
 > Jacobian and Hessian Matrix:
   - Jacobian matrix - it is a matrix everyone of partial derivative vector function.
 $$
