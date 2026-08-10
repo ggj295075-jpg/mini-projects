@@ -20,4 +20,6 @@
   - W - a single specific weight
   - a - a speed of train
 
-
+> Jacobian and Hessian Matrix:
+  - Jacobian matrix - it is a matrix everyone of partial derivative vector function.
+    - $$\begin{bmatrix} \frac{\delta f_{1}}{\delta x_{1}} \\ \frac{\delta f_{2}}{\delta x_{1}} \end{bmatrix} $$
