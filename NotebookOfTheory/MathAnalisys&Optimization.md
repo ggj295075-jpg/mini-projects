@@ -22,4 +22,11 @@
 
 > Jacobian and Hessian Matrix:
   - Jacobian matrix - it is a matrix everyone of partial derivative vector function.
-    - $$\begin{bmatrix} \frac{\delta f_{1}}{\delta x_{1}} \\ \frac{\delta f_{2}}{\delta x_{1}} \end{bmatrix} $$
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{bmatrix}
+$$
+
