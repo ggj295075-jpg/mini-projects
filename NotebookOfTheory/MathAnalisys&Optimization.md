@@ -1,6 +1,5 @@
 # It is a theory note of Phase 0.2 in my ml roadmap.
 
-> [!NOTE]
 > *First I'll write will be derivative.*
 
 **Derivative measure a changes speed of function.**
@@ -15,21 +14,17 @@
     - multivariate loss function
     - gradient
 
-> [!NOTE]
 > Gradient Descent:
   - Formula: $$W_{new} = W_{old} - a * \frac{dL}{dW}$$
   - L - loss
   - W - a single specific weight
   - a - a speed of train
 
-> [!NOTE]
 > Jacobian and Hessian Matrix:
   - Jacobian matrix - it is a matrix everyone of partial derivative vector function.
-$$
-\begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{bmatrix}
-$$
+  - Hessian matrix - it is a matrix of all the second partial derivatives of a multivariable scalar function.
+
+> Chain Rule and Composite Function:
+  - Chain rule is a formula used to find the derivative of a composite function.
+  - Composite function is a new function made by putting one function inside another.
 
