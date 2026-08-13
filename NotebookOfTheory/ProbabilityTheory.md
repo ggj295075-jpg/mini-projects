@@ -6,3 +6,6 @@
     - It is a variable, which a value depends on random case.
   - Expectation
     - A random value, which to accept average value with probability an everyone case.
+  - Variance
+    - The measure of dispersion
+
