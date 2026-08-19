@@ -9,4 +9,4 @@ Numpy Linear Algebra Functions:
 - linalg.matrix_norm(x, ..) - computes the matrix of a matrix(or a stack of matrices).
 - linalg.vector_norm(x, ..) - computes a vector norm of a vector(or batch of vectors).
 - linalg.matrix_rank(A) - return matrix rank of array using SVD method.
-
+- vectorize(function) - return func, which can work as arrays and matrix
