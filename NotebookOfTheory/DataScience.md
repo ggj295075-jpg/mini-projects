@@ -36,9 +36,20 @@
    ```
 
 ## Numpy:
- - Vectorize:
+ - Vectorize: It is a function which can use list, doesn't use loop.
  ```Python
  import numpy as np
 
  def myfunc(list):
+    "Return list inside which objects, replace to "GOOD" and "BAD" depending on they value."
+    if list > 10 and list < 100:
+        return "GOOD"
+    else:
+        return "BAD"
+ sort = np.vectorize(myfunc)
+ vector = np.array([1,20,40,55,67,302,999])
+ print(sort(vector)) # Output: ['BAD', 'GOOD', 'GOOD', 'GOOD', 'GOOD', 'BAD', 'BAD']
+ ```
 
+## Pandas
+    - I'll finish writing this part later.
