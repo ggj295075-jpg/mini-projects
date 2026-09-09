@@ -3,7 +3,6 @@
 > [!WARNING]
 > It's important for work the Git
 ```bash
-```bash
 - git add [.(all edited files in dir) or filename]                    
 - git commit                                                          
 - git push origin main                                                
